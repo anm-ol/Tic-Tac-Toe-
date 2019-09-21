@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class tic_array
 {
     static int[] win(int t[])
-    { int comb[][] = {{1,2,3},{4,5,6},{7,8,9},{1,4,7},{2,5,8},{3,6,9},{1,5,9},{3,5,7}} ;
+    {
+    int comb[][] = {{1,2,3},{4,5,6},{7,8,9},{1,4,7},{2,5,8},{3,6,9},{1,5,9},{3,5,7}} ;
     int w1=0,w2=0,i,j,k,d;
     for(i=0;i<8;i++)
     {
